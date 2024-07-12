@@ -1,0 +1,1 @@
+Today (7/11/2024) we are learning how to interact with git functions in the linux command line.
