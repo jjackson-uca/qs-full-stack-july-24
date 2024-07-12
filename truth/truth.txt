@@ -1,0 +1,5 @@
+Today, I learned how to get an SSH key so I can connect code on my local 
+computer to GitHub, which allows me to access it remotely.
+I learned that git is helpful because it allows you to track changes. I 
+also learned that there are three commands I will use often (git add, git 
+commit, and git push).  
