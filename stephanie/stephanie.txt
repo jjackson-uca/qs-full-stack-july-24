@@ -1,0 +1,19 @@
+Notes for July 11 Class
+
+Created GitHub account
+Created Key
+Added Key to Terminal
+
+Important to remember (holy trinity):
+git add .
+git commit -m "name it a summary of the commit you are saving"
+git push
+
+Added all of us to a collaborative repository
+
+We cloned the respository we were added to within Terminal
+cd into my folder
+open txt file: nano stephanie.txt
+
+^O to save
+^X to exit
