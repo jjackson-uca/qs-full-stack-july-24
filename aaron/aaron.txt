@@ -1,3 +1,25 @@
 learned how to use keys.
+
 learned how to add,push,pull,commit to github.
-testing
+
+bandit11- used ls to see the files in the directory, then used cat data.txt to see the contents of the file. then used cat data.txt | tr followed by the alphabet and the alphabet capitalized then the same but shifted 13 positions.
+
+bandit12- so this one was a doozy. first i made a temp directory and used the cp command to copy the data.txt file to the temp directory. then i used the xxd command to change to hexdump into a compressed file. after that i painfully used the mv command to change the file ending to end with either a gz, bz2, or tar. then decompressed the file with gunzip or bunzip2 or tar -xf. eventually got it to an ASCII text.
+
+bandit13- opened the private key, then used the echo command with the copied private key and saved it to a file. then tried logging into bandit14 using the -i followed by my file name, it didn't work due the file having public permissions so i exited and changed the files permissions using chmod 700 so that i could have all the permissions and that the groups and users would have none. used the ssh command to connect to bandit14 and used the file with the private key to gain access.
+
+bandit14- used cat /etc/bandit_pass/bandit14 to open the file that needs to be submitted to port 30000 on localhost. used the nc command followed by localhost 30000 to connect to the correct port then copied and pasted the password which upon entering gave me the actual password to bandit15.
+
+bandit15- used the command openssl s_client -connect localhost:30001 to connect and pasted the password for bandit15 to get password for 16.
+
+bandit16- so i had some troubles with this one. used nmap -p 31000-32000 localhost and identified the 5 ports. used nmap -p (the ports) -A localhost and got a lot of info including which port responded. finally figured out that ncat --ssl localhost 31790 would allow me to connect to the correct port and feed it the password which i got by doing cat /etc/bandit_pass/bandit17. got a private key exited bandit16 and created a file with said key using echo. gave it permissions of 700 and then used the same command as i used in bandit13 but with the new file.
+
+bandit17- used the command diff passwords.old passwords.new, since the passwords.new was the second file that was the correct password.
+
+bandit18- used the password and kept getting logged out, so used man ssh and found that at the end of the usual login a command can be added at the end to avoid the .bashrc so i used cat readme at the end to open the file with the password for 19.
+
+bandit19- used the command ./bandit20-do cat /etc/bandit_pass/bandit20 which gave me the password. i had trouble with this one but i guess that making the beginning start with ./bandit20-do it gave me permission to be bandit20 and to open the password within?
+
+bandit20- on this one i opened a second terminal and logged into bandit20 and used the nc -lvp (port) to listen to a specific port. i then used my original terminal and did ./suconnect (port), after that i entered the password for 20 on the listening terminal to get the password for 21.
+
+
