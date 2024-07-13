@@ -1,4 +1,57 @@
 SSH Keys 
 
-How to connect git with github using SSH key 
+How to connect git with github using SSH key
+
+Level 10 -11 
+dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+
+I got this by using the Base64 command  for decoding binary code I paired it with the -d flag so that it would decode the key
+
+
+Level 11-12
+7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+
+Used the tr command to decrypt and gave it the following parameters 'A-Za-z' 'N-ZA-Mn-za-m'
+
+Level 12-13
+FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
+
+This one was a lot Im not sure I will do a great job of explaining but we had to use the following commands a lot in this one 
+ Mkdir to create a new directory
+cp to copy files 
+mv to move files 
+
+Level 13-14
+MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
+
+ls - to find the ssh.private key
+Logged in to bandit14 using the ssh key -ssh -i sshkey.private -p 2220 bandit14@localhost
+Cat to see the password here /etc/bandit_pass/bandit14
+
+Level 14-15
+8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+
+Ran cat /etc/bandit_pass/bandit14 to find the password for the previous level 
+Used nc localhost 30000 and plugged in the password for the previous level to get the new Password 
+
+Level 16-17
+kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
+
+Used openssl s_client -connect to connect to the localhost server with the OpenSSL client 
+I plugged in the password form the previous level to get the new password 
+
+
+Level 17 - 18
+x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO
+
+Level 18-19
+cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
+
+Level 19-20
+0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
+ 
+Level 20-21
+EeoULMCra2q0dSkYj561DX7s1CpBuOBt 
+
+
 
