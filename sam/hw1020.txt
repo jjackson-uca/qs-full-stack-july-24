@@ -1,0 +1,30 @@
+For 11 - 12, you were given the knowledge that the password was encrypted with the ROT13 cypher. 
+With this cypher all letters are shifted 13 position over in the alphabet. Do shift the letters back to the original 
+values, you would you the translate, or tr, command with the strings 'A-Za-z' 'N-ZA-Mn-za-m' which is essentially saying for all characters A-Za-z, 
+replace them with characters N-ZA-Mn-za-m respectively.
+
+12 - 13, This one was a lot of steps. at first I had a hard time trying to understand how to read the reversed hex dump files but once i was able to figure out the signatures for the different compression types, you could work 
+your way through the data until you finally got to a readable file. In simple terms we took a hexdump and reversed it and decompressed it until it was readable.
+
+13-14, This one is very similar to the way you would generally login to another user using the ssh command, except this time you are given a private ssh key to remote into another computer from your local host.
+To do this you would just use the ssh command with the -i addon, which points to a specific key file to use for permission to ssh to another machine. Rather than using the domain name after the user, you can just 
+use localhost.
+
+14-15, I did have to follow a youtube video to explain how netcat works as I couldn't quite understand from the manual on linux.
+We were told to use port 30000 on local host so you simply just us netcat or nc on localhost at port 30000, then give the password from previous challenge and it sends you back the string of the password.
+
+15-16 Similar to the previous challenge, though we are told to SSL encryption instead, so we use the openssl command to establish a secure connection the the machine to fetch the next password
+
+16-17 We used nmap to scan for SSL ports that doesnt echo. We were able to see this on port 31790 using nmap combined with -sV and -p
+We then were able to grab a private SSH key that allowed us to SSH into the next machine.
+
+17-18 Very simple on this one we simply you the diff command to find which line of text was different from between the two files since we know only one line was changed.
+
+??? 18-19 For this one I had to google to realize that you could run commands off of a ssh command that allows you to perform actions on the machine without actually logging into it.
+this allowed me to read the readme file on the machine without fully logging in
+
+19-20 I could not figure out how to solve this one using the setuid command like the website wanted us to. instead i found a guide that showed how to use the -do tag before a user id to run a command as another user
+
+20-21 For this challenge I had to google to find out how to setup a server that would listen for an inbound connection and send me the message. I also had to find out how to run commands (like the listening server)
+in the background so that I could echo the password and recieve the new password.
+
