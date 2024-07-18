@@ -2,7 +2,7 @@ html {
     height: 100%;
 }
 body {
-    font-family: 'Merriweather', serif;
+    font-family: 'Merriweather';
     margin: 0;
     padding: 0;
     display: flex;
@@ -60,7 +60,6 @@ nav ul li {
 }
 
 nav ul li a {
-    text-decoration: none;
     color: #fff;
     background-color: #007BFF;
     padding: 10px;
@@ -116,7 +115,6 @@ footer .social-icons {
 }
 
 footer .social-icons a {
-    text-decoration: none;
     color: inherit;
 }
 
