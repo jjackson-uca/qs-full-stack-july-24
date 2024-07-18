@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FastTrack Homepage</title>
+  <style>
+   
+   
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fafafa;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start; 
+      background-color: #fff;
+      padding: 5px; 
+      border-bottom: 1px solid #dbdbdb;
+    }
+
+    header .logo {
+      font-size: 24px;
+      font-weight: bold;
+      float: left;
+  
+    }
+
+    header nav {
+      float: right;
+    }
+
+    header nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #262626;
+      font-weight: bold;
+    }
+
+    .profile {
+      display: flex;
+      align-items: center;
+      margin: 20px 0;
+      padding: 5px;
+      background-color: #fff;
+      border: 1px solid #dbdbdb;
+      border-radius: 5px;
+    }
+
+    .profile-picture img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-right: 5px;
+    }
+    .profile-info .follow-button {
+      padding: 5px 10px;
+      background-color: #3897f0;
+      color: #fff;
+      border-radius: 3px;
+      cursor: pointer;
+      display: inline-block;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 10px;
+    }
+
+    .grid-item {
+      position: relative;
+      overflow: hidden;
+      background-color: #f0f0f0; 
+    }
+
+    .grid-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+
+    .text-link {
+            position: absolute;
+            top: 0px; 
+            left: 4%; 
+            color: white; 
+            background-color: rgba(0, 0, 0, 0.5); 
+            padding: 5px; 
+            text-decoration: none;
+        }
+        
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">WebGram</div>
+      <nav>
+        <a href="#">Home</a>
+        <a href="mailto:arcoding@uca.edu" style="text-decoration: none;">Messages</a>
+        <a href="#">Profile</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <section class="profile">
+        <div class="profile-picture">
+          <img src="profilePic.jpg" alt="Profile Picture">
+        </div>
+        <div class="profile-info">
+          <h2>FastTrackFall2024</h2>
+          <p style="line-height: 1.2px;">5 learners making the transition into tech</p>
+          <p style="line-height: 1.2px;"> #webDevelopment </p>
+          <p style="line-height: 1.2px;"> #lookingForTechJobs</p>
+          <p style="line-height: 1.2px;"> #ArkansasCodingAcademy</p>
+          <div class ="follow-button"> 
+                <a href="https://www.instagram.com/arcoding" style="color: white; text-decoration: none;" > Follow </a>
+          </div>
+          
+        </div>
+      </section>
+
+      <section class="grid-container">
+        <div class="grid-item"><img src="tempFeedPics.png" alt="Joe"> <a href = "/Users/truth/Desktop/ArcaProjects/qs-full-stack-july-24/joe" class = "text-link"> Joe</a> </div>
+        <div class="grid-item"><img src="tempFeedPics.png"  alt="Aaron"><a href = "/Users/truth/Desktop/ArcaProjects/qs-full-stack-july-24/aaron" class = "text-link"> Aaron</a> </div>
+        <div class="grid-item"><img src="tempFeedPics.png"  alt="Sam>"><a href = "/Users/truth/Desktop/ArcaProjects/qs-full-stack-july-24/sam" class = "text-link"> Sam</a> </div>
+        <div class="grid-item"><img src="tempFeedPics.png"  alt="Stephanie"><a href = "/Users/truth/Desktop/ArcaProjects/qs-full-stack-july-24/stephanie" class = "text-link"> Stephanie</a> </div>
+        <div class="grid-item"><img src="tempFeedPics.png"  alt="Steven"><a href = "/Users/truth/Desktop/ArcaProjects/qs-full-stack-july-24/steven" class = "text-link"> Steven</a> </div>
+        <div class="grid-item"><img src="tempFeedPics.png"  alt="Truth"><a href = "/Users/truth/Desktop/ArcaProjects/qs-full-stack-july-24/truth" class = "text-link"> Truth</a> </div>
+      </section>
+    </div>
+  </main>
+
+ 
+</body>
+</html>

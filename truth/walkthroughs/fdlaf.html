@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instagram-like Homepage</title>
+  <style>
+    /* Basic Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fafafa;
+    }
+
+    /* Container */
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    /* Header */
+    header {
+      background-color: #fff;
+      padding: 10px 0;
+      border-bottom: 1px solid #dbdbdb;
+    }
+
+    header .logo {
+      font-size: 24px;
+      font-weight: bold;
+      float: left;
+    }
+
+    header nav {
+      float: right;
+    }
+
+    header nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #262626;
+      font-weight: bold;
+    }
+
+    /* Profile Section */
+    .profile {
+      display: flex;
+      align-items: center;
+      margin: 20px 0;
+      padding: 10px;
+      background-color: #fff;
+      border: 1px solid #dbdbdb;
+      border-radius: 5px;
+    }
+
+    .profile-picture img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+
+    .profile-info h2 {
+      margin-bottom: 10px;
+    }
+
+    .profile-info button {
+      padding: 5px 10px;
+      border: none;
+      background-color: #3897f0;
+      color: #fff;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+    /* Grid Layout */
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 10px;
+    }
+
+    .grid-item {
+      position: relative;
+      overflow: hidden;
+      background-color: #f0f0f0; /* Placeholder background color */
+    }
+
+    .grid-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #fff;
+      padding: 10px 0;
+      border-top: 1px solid #dbdbdb;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">Instagram</div>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Messages</a>
+        <a href="#">Profile</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <section class="profile">
+        <div class="profile-picture">
+          <img src="profile.jpg" alt="Profile Picture">
+        </div>
+        <div class="profile-info">
+          <h2>Username</h2>
+          <p>Bio: This is a sample bio.</p>
+          <button>Follow</button>
+        </div>
+      </section>
+
+      <section class="grid-container">
+        <div class="grid-item"><img src="image1.jpg" alt="Image 1"></div>
+        <div class="grid-item"><img src="image2.jpg" alt="Image 2"></div>
+        <div class="grid-item"><img src="image3.jpg" alt="Image 3"></div>
+        <div class="grid-item"><img src="image4.jpg" alt="Image 4"></div>
+        <div class="grid-item"><img src="image5.jpg" alt="Image 5"></div>
+        <div class="grid-item"><img src="image6.jpg" alt="Image 6"></div>
+        <div class="grid-item"><img src="image7.jpg" alt="Image 7"></div>
+        <div class="grid-item"><img src="image8.jpg" alt="Image 8"></div>
+        <div class="grid-item"><img src="image9.jpg" alt="Image 9"></div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Instagram Clone. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
