@@ -1,0 +1,134 @@
+html {
+    height: 100%;
+}
+body {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f9;
+    color: #333;
+    height: 100%;
+    justify-content: space-between;
+}
+
+#container {
+    display: grid;
+    grid-template-areas: 
+        "header header header"
+        "nav main aside"
+        "footer footer footer";
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 20% 1fr 20%;
+    grid-gap: 10px;
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    flex: 1 0 auto;
+}
+
+header {
+    grid-area: header;
+    background: #a833b9;
+    text-align: center;
+    padding: 20px;
+    border-radius: 25px;
+    color: #fff;
+}
+
+nav {
+    grid-area: nav;
+    background: #779be7;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+nav h3 {
+    margin: 0 0 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 10px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #007BFF;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: #0056b3;
+}
+
+main {
+    grid-area: main;
+    background: #FCFCFF;
+    padding: 20px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+aside {
+    grid-area: aside;
+    background: #779be7;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+aside img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+footer {
+    grid-area: footer;
+    background: #2a2b2a;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+footer .social-icons {
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+}
+
+footer .social-icons a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer .social-icons a:hover {
+    color: #d896eb;
+}
+
+footer .social-icons i {
+    font-size: 24px;
+}
+
+footer .social-icons i:hover {
+    font-size: 28px;
+    color: #d896eb;
+}
