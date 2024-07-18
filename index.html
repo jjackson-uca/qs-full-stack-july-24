@@ -1,89 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <style>
-        .part{
-            border:solid;
-            background-color: #5b5e5e;
-            border-color:white;
-            border-radius:20px;
-            width: 100%;
-            height: 250px;
-            display:flex;
-        }
-        .link{border:solid;
-        background-color:white;
-        border-color:#5b5e5e;
-        border-radius:60px;
-        width:auto;
-        height:200px;
-        position:absolute;
-        bottom:0;
-        }
-        .link1{border:solid;
-        background-color:white;
-        border-color:#5b5e5e;
-        border-radius:10px;
-        width:500px;
-        height:75px;
-        position:absolute;
+      .part {
+        border: solid;
+        background-color: #5b5e5e;
+        border-color: white;
+        border-radius: 20px;
+        width: 100%;
+        height: 250px;
+        display: flex;
+        padding: 10px; 
+      }
+      .link {
+        border: solid;
+        background-color: white;
+        border-color: #5b5e5e;
+        border-radius: 60px;
+        width: auto;
+        height: 200px;
+        position: sticky;
+        bottom: 0;
+      }
+      .link1 {
+        border: solid;
+        background-color: white;
+        border-color: #5b5e5e;
+        border-radius: 10px;
+        width: 500px;
+        height: 75px;
+        position: sticky;
         bottom: 250px;
-        }
-        body{
-            background-color:#582c83;
-            font-family: Georgia, serif;
-        }
-        header{
-            width:1300px;
-            height:300px;
-            border-radius:10px;
-        }
+      }
+      body {
+        background-color: #582c83;
+        font-family: Georgia, serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      header {
+        width: 1300px;
+        height: 300px;
+        border-radius: 10px;
+        position: sticky;
+        top: 0; 
+      }
+
+      .student-link{
+        margin: 25px; 
+        min-width: fit-content;
+        width: 250px;  
+      }
     </style>
-    <header style=" align-content: space-around; gap:20px; border:solid; background-color:white;">
-        <a href="https://arkansascodingacademy.com/"><h1 style="color:#582c83; text-align:center; font-size:50px">Arkansas Code Academy</h1></a>
-        <h2 style="color:#582c83; text-align: center; font-size:30px">Fast Track Class 2024</h2>
-        <img style="width:200px; height:auto; transform: translate(1000px,-175px)" src="https://www.arkansasbusiness.com/wp-content/uploads/2016/11/uca-current-logo-2016.jpg">
-        <img style="width:200px; height:auto; transform: translate(-100px,-225px)" src="https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Central_Arkansas_Athletics_logo.svg/200px-Central_Arkansas_Athletics_logo.svg.png">
+    <header
+      style="
+        gap: 20px;
+        border: solid;
+        background-color: white;
+      "
+    >
+      <a href="https://arkansascodingacademy.com/"
+        ><h1 style="color: #582c83; text-align: center; font-size: 50px">
+          Arkansas Code Academy
+        </h1></a
+      >
+      <h2 style="color: #582c83; text-align: center; font-size: 30px">
+        Fast Track Class 2024
+      </h2>
+      <img
+        style="width: 200px; height: auto; transform: translate(1000px, -175px)"
+        src="https://www.arkansasbusiness.com/wp-content/uploads/2016/11/uca-current-logo-2016.jpg"
+      />
+      <img
+        style="width: 200px; height: auto; transform: translate(-100px, -225px)"
+        src="https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Central_Arkansas_Athletics_logo.svg/200px-Central_Arkansas_Athletics_logo.svg.png"
+      />
     </header>
-    <br>
-    <br>
-    <br>
-    <div style="display:flex; flex-wrap:wrap; align-content: center; gap:20px; background-color:transparent; margin-left:25px; margin-right:20px; align-items: center; width:100%;">
-    <a href="aaron" style="color:black;"><div class="part">
-        <h1 style="font-size:90px; text-align:center; line-height: 120%;" >Aaron</h1>
-    </div></a>
-    <a href="joe" style="color:black;"><div class="part">
-        <h1 style="font-size:90px; text-align:center; line-height: 120%;">Joe</h1>
-    </div></a>
-    <a href="sam" style="color:black;"><div class="part">
-        <h1 style="font-size:90px; text-align:center; line-height: 120%;">Sam</h1>
-    </div></a>
-    <a href="stephanie" style="color:black;"><div class="part">
-        <h1 style="font-size:90px; text-align:center; line-height: 120%;">Stephanie</h1>
-    </div></a>
-    <a href="steven" style="color:black;"><div class="part">
-        <h1 style="font-size:90px; text-align:center; line-height: 120%;">Steven</h1>
-    </div></a>
-    <a href="truth" style="color:black;"><div class="part">
-        <h1 style="font-size:90px; text-align:center; line-height: 120%;">Truth</h1>
-    </div></a>
+    <br />
+    <br />
+    <br />
+    <div
+      style="
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        gap: 20px;
+        background-color: transparent;
+        margin-left: 25px;
+        margin-right: 20px;
+        align-items: center;
+        width: 100%;
+      "
+    >
+    <a href="aaron" class="student-link" style="color: black"
+    ><div class="part">
+      <h1 style="font-size: 90px; text-align: center; line-height: 120%">
+        Aaron
+      </h1>
+    </div></a
+  >
+  <a href="joe" class="student-link" style="color: black"
+    ><div class="part">
+      <h1 style="font-size: 90px; text-align: center; line-height: 120%">
+        Joe
+      </h1>
+    </div></a
+  >
+  <a href="sam" class="student-link" style="color: black"
+    ><div class="part">
+      <h1 style="font-size: 90px; text-align: center; line-height: 120%">
+        Sam
+      </h1>
+    </div></a
+  >
+  <a href="stephanie" class="student-link" style="color: black"
+    ><div class="part">
+      <h1 style="font-size: 90px; text-align: center; line-height: 120%">
+        Stephanie
+      </h1>
+    </div></a
+  >
+  <a href="steven" class="student-link" style="color: black"
+    ><div class="part">
+      <h1 style="font-size: 90px; text-align: center; line-height: 120%">
+        Steven
+      </h1>
+    </div></a
+  >
+  <a href="truth" class="student-link" style="color: black"
+    ><div class="part">
+      <h1 style="font-size: 90px; text-align: center; line-height: 120%">
+        Truth
+      </h1>
+    </div></a
+  >
+    <footer
+      style="
+        display:flex; 
+        flex-direction: column;
+        gap: 20px;
+        background-color: transparent;
+        position: sticky;
+        bottom: 0; 
+      "
+    >
+      <div class="link1" style="margin-left:auto; margin-right: auto;">
+        <h1 style="text-align: center; line-height: 10%; font-size: 50px">
+          Important Links
+        </h1>
+      </div>
+      <div style="display: flex">
+      <a href="https://developer.mozilla.org/en-US/"
+        ><div class="link" style="right: 0">
+          <h2 style="font-size: 50px; text-align: center; line-height: 220%">
+            MDN Web Docs
+          </h2>
+        </div></a
+      >
+      <a href="https://overthewire.org/wargames/bandit/"
+        ><div class="link" style="left: 0">
+          <h2 style="font-size: 50px; text-align: center; line-height: 220%">
+            OverTheWire
+          </h2>
+        </div></a
+      >
+      <a href="https://meet.google.com/fev-snnw-drt"
+        ><div class="link" style="right: 35%">
+          <h2 style="font-size: 50px; text-align: center; line-height: 220%">
+            Google Meets
+          </h2>
+        </div></a
+      >
     </div>
-    <footer style="display:flex; flex-wrap:wrap; align-content: space-around; gap:20px; background-color:transparent;">
-        <div class="link1" style="right:35%"><h1 style="text-align: center; line-height: 10%; font-size:50px">Important Links</h1></div>
-        <a href="https://developer.mozilla.org/en-US/"><div class="link" style="right:0;">
-            <h2 style="font-size:50px; text-align:center; line-height:220%;">MDN Web Docs</h2>
-        </div></a>
-        <a href="https://overthewire.org/wargames/bandit/"><div class="link" style="left:0;">
-            <h2 style="font-size:50px; text-align:center; line-height:220%;">OverTheWire</h2>
-        </div></a>
-        <a href="https://meet.google.com/fev-snnw-drt"><div class="link" style="right:35%;">
-            <h2 style="font-size:50px; text-align:center; line-height:220%;">Google Meets</h2>
-        </div></a>
     </footer>
-</body>
+  </body>
 </html>
