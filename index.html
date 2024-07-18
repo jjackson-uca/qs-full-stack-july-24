@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arkasas Coding Academy</title>
+</head>
+<body>
+    <style>
+        body{
+          margin: 0;
+          font-family: Arial, sans-serif;
+          display: flex;
+          flex-direction: column;
+          min-height: 100vh;
+
+        }
+        header{
+            background-color: rgb(53, 30, 53);
+            color: #fff;
+            text-align: center;
+            padding: 80px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 45px;
+            
+        }
+
+        h1{
+            margin: 0; /* Remove default margin */
+        padding: 20px; 
+        background-color: #f0f0f0;
+        text-align: center;
+    }
+         
+        
+        .group{
+            flex: 1; /* Grow to take up remaining space */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f0f0f0;
+        margin-top: -10px;
+        
+        }
+
+        .people-container{
+            display: flex;
+        flex-wrap: wrap;
+        justify-content: center; /* Center boxes horizontally */
+        max-width: 800px; /* Limit the width of the boxes */
+        padding: 20px;
+        }
+
+        .person{
+           width: 200px; 
+           height: 200px;
+           background-color: lightgrey;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           margin: 10px;
+           font-weight: bold;
+           font-size: 20px;
+           border: 2px solid  rgb(53, 30, 53);
+           box-sizing: border-box;
+           border-radius: 15px;
+           
+
+        }
+        .person:hover{
+            transform: scale(1.1); /* Scale up by 10% on hover */
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */
+    }
+        
+        footer{
+            background-color: rgb(53, 30, 53);
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+
+    </style>
+    <header>ARKANSAS CODING ACADEMY</header>
+    <h1>Click here to view our projects!</h1>
+    <div class="group">
+        <div class="people-container">
+            <a href="#/Users/stevenguatemala/qs-full-stack-july-24/joe" class="person">Joe</a>
+            <a href="#/Users/stevenguatemala/qs-full-stack-july-24/aaron" class="person">Aaron</a>
+            <a href="#/Users/stevenguatemala/qs-full-stack-july-24/sam" class="person">Sam</a>
+            <a href="#/Users/stevenguatemala/qs-full-stack-july-24/truth" class="person">Truth</a>
+            <a href="#/Users/stevenguatemala/qs-full-stack-july-24/stephanie" class="person">Stephanie</a>
+            <a href="#/Users/stevenguatemala/qs-full-stack-july-24/steven" class="person">Steven</a>
+    
+        </div>
+
+    </div>
+    <footer>Arkansas Coding Academy</footer>
+</body>
+</html>
