@@ -49,12 +49,17 @@
         justify-content: center; /* Center boxes horizontally */
         max-width: 800px; /* Limit the width of the boxes */
         padding: 20px;
+        background-image: url(./texture-dark-background-purple-1920x1200-3086.jpg);
+           background-size: cover;
+           background-repeat: no-repeat;
+           -webkit-background-clip: text;
         }
+
 
         .person{
            width: 200px; 
            height: 200px;
-           background-color: lightgrey;
+           background-color: transparent;
            display: flex;
            justify-content: center;
            align-items: center;
@@ -64,13 +69,30 @@
            border: 2px solid  rgb(53, 30, 53);
            box-sizing: border-box;
            border-radius: 15px;
-           
-
+           text-align: center;
+           text-transform: uppercase;
+           font: 32pt Open Sans, Impact;
+           font-weight: 100;
+           -webkit-text-fill-color: transparent;
+           transition: ease-in-out;
+           transition-duration: 500ms;
+          color: white; 
         }
+
         .person:hover{
-            transform: scale(1.1); /* Scale up by 10% on hover */
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */
-    }
+          /*transform: scale(1.1); /* Scale up by 10% on hover */
+          -webkit-text-fill-color: white;
+          font-weight: 500;
+          font-size: 32pt; 
+          color: white; 
+          background-image: url(./texture-dark-background-purple-1920x1200-3086.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */
+          transition: ease-in-out;
+          transition-duration: 500ms;
+  
+        }
         
         footer{
             background-color: rgb(53, 30, 53);
@@ -85,12 +107,12 @@
     <h1>Click here to view our projects!</h1>
     <div class="group">
         <div class="people-container">
-            <a href="#/Users/stevenguatemala/qs-full-stack-july-24/joe" class="person">Joe</a>
-            <a href="#/Users/stevenguatemala/qs-full-stack-july-24/aaron" class="person">Aaron</a>
-            <a href="#/Users/stevenguatemala/qs-full-stack-july-24/sam" class="person">Sam</a>
-            <a href="#/Users/stevenguatemala/qs-full-stack-july-24/truth" class="person">Truth</a>
-            <a href="#/Users/stevenguatemala/qs-full-stack-july-24/stephanie" class="person">Stephanie</a>
-            <a href="#/Users/stevenguatemala/qs-full-stack-july-24/steven" class="person">Steven</a>
+            <a href="joe/" class="person">Joe</a>
+            <a href="aaron/" class="person">Aaron</a>
+            <a href="sam/" class="person">Sam</a>
+            <a href="truth/" class="person">Truth</a>
+            <a href="stephanie/" class="person">Stephanie</a>
+            <a href="steven/" class="person">Steven</a>
     
         </div>
 
