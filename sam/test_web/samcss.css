@@ -105,14 +105,15 @@ aside img {
 footer {
     grid-area: footer;
     background: #2a2b2a;
-    padding: 20px;
     border-radius: 25px;
 }
 
 footer .social-icons {
+    height: 60px;
     display: flex;
+    align-items: center;
+    padding-left: 20px; 
     justify-content: left;
-    gap: 20px;
 }
 
 footer .social-icons a {
@@ -125,10 +126,21 @@ footer .social-icons a:hover {
 }
 
 footer .social-icons i {
-    font-size: 24px;
+    font-size: 24pt;
+    margin: 4px; 
+    transition: ease-in-out;
+    transition-duration: 200ms;
 }
 
 footer .social-icons i:hover {
+    margin: 0px; 
     font-size: 28px;
     color: #d896eb;
+}
+
+#wrap {  padding: 0; overflow: hidden; background-color: white; height: 85px; aspect-ratio: 16/9; }
+#frame { width: 1366px; height: 768px; border: 1px solid black; }
+#frame {
+    -webkit-transform: scale(0.125);
+    -webkit-transform-origin: 0 0;
 }
