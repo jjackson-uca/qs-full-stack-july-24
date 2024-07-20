@@ -3,39 +3,52 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Fast Track Homepage</title>
   </head>
   <body>
     <style>
+      html body {
+        height: 100vh;
+      }
       .part {
         border: solid;
         background-color: #5b5e5e;
         border-color: white;
         border-radius: 20px;
-        width: 100%;
+        width: 400px;
         height: 250px;
         display: flex;
-        padding: 10px; 
+        padding: 10px;
+        align-items:center; 
+      }
+      .student-link .part:hover {
+        background-color:white;
+      }
+      .link:hover {
+        background-color: white;
       }
       .link {
         border: solid;
-        background-color: white;
-        border-color: #5b5e5e;
-        border-radius: 60px;
-        width: auto;
-        height: 200px;
-        position: sticky;
+        background-color:black;
+        border-color:white;
+        border-radius: 20px;
         bottom: 0;
+        padding:10px;
+        margin:10px;
+        position: sticky;
+      }
+      .link h2 {
+        margin:0px;
       }
       .link1 {
         border: solid;
-        background-color: white;
-        border-color: #5b5e5e;
+        background-color:black;
+        border-color: white;
         border-radius: 10px;
         width: 500px;
         height: 75px;
-        position: sticky;
         bottom: 250px;
+        position: sticky;
       }
       body {
         background-color: #582c83;
@@ -52,10 +65,20 @@
         top: 0; 
       }
 
-      .student-link{
+      .student-link {
         margin: 25px; 
         min-width: fit-content;
-        width: 250px;  
+        width: 250px;
+        text-align: center;
+        text-decoration: none;  
+      }
+      .h1 {
+        margin:auto;
+      }
+      .ilink {
+        text-decoration: none;
+      }
+      .container {
       }
     </style>
     <header
@@ -65,7 +88,7 @@
         background-color: white;
       "
     >
-      <a href="https://arkansascodingacademy.com/"
+      <a style="text-decoration: none;" href="https://arkansascodingacademy.com/"
         ><h1 style="color: #582c83; text-align: center; font-size: 50px">
           Arkansas Code Academy
         </h1></a
@@ -96,88 +119,89 @@
         margin-left: 25px;
         margin-right: 20px;
         align-items: center;
-        width: 100%;
+        width:100%;
+        overflow-y:auto;
       "
     >
-    <a href="aaron" class="student-link" style="color: black"
+    <a href="aaron" class="student-link" style="color: black;"
     ><div class="part">
-      <h1 style="font-size: 90px; text-align: center; line-height: 120%">
+      <h1 class="h1" style="font-size: 70px; text-align: center; line-height: 120%">
         Aaron
       </h1>
     </div></a
   >
   <a href="joe" class="student-link" style="color: black"
     ><div class="part">
-      <h1 style="font-size: 90px; text-align: center; line-height: 120%">
+      <h1 class="h1" style="font-size: 70px; text-align: center; line-height: 120%">
         Joe
       </h1>
     </div></a
   >
   <a href="sam" class="student-link" style="color: black"
     ><div class="part">
-      <h1 style="font-size: 90px; text-align: center; line-height: 120%">
+      <h1 class="h1" style="font-size: 70px; text-align: center; line-height: 120%">
         Sam
       </h1>
     </div></a
   >
   <a href="stephanie" class="student-link" style="color: black"
     ><div class="part">
-      <h1 style="font-size: 90px; text-align: center; line-height: 120%">
+      <h1 class="h1" style="font-size: 70px; text-align:center; line-height: 120%">
         Stephanie
       </h1>
     </div></a
   >
-  <a href="steven" class="student-link" style="color: black"
+  <a href="steven" class="student-link" style="color: black;"
     ><div class="part">
-      <h1 style="font-size: 90px; text-align: center; line-height: 120%">
+      <h1 class="h1" style="font-size: 70px; text-align: center; line-height: 120%">
         Steven
       </h1>
     </div></a
   >
   <a href="truth" class="student-link" style="color: black"
     ><div class="part">
-      <h1 style="font-size: 90px; text-align: center; line-height: 120%">
+      <h1 class="h1" style="font-size: 70px; text-align: center; line-height: 120%">
         Truth
       </h1>
     </div></a
   >
-    <footer
+  </div>
+<footer
       style="
-        display:flex; 
-        flex-direction: column;
+        display:flex;
         gap: 20px;
         background-color: transparent;
-        position: sticky;
+        position: relative;
         bottom: 0; 
-      "
-    >
+      ">
+      <div class="container" style="background-color:#5b5e5e; margin:10px; padding:10px; width:100%; position: relative; border-radius: 10px;">
       <div class="link1" style="margin-left:auto; margin-right: auto;">
-        <h1 style="text-align: center; line-height: 10%; font-size: 50px">
+        <h1 style="text-align: center; line-height: 10%; font-size: 50px; color:#582c83;">
           Important Links
         </h1>
       </div>
-      <div style="display: flex">
-      <a href="https://developer.mozilla.org/en-US/"
+      <div style="display: flex; flex-wrap: wrap; justify-content:center;">
+      <a class="ilink" href="https://developer.mozilla.org/en-US/"
         ><div class="link" style="right: 0">
-          <h2 style="font-size: 50px; text-align: center; line-height: 220%">
+          <h2 style="font-size: 50px; text-align: center; line-height: 220%; color:#582c83;">
             MDN Web Docs
           </h2>
-        </div></a
-      >
-      <a href="https://overthewire.org/wargames/bandit/"
+        </div>
+      </a>
+      <a class="ilink" href="https://overthewire.org/wargames/bandit/"
         ><div class="link" style="left: 0">
-          <h2 style="font-size: 50px; text-align: center; line-height: 220%">
+          <h2 style="font-size: 50px; text-align: center; line-height: 220%; color:#582c83;">
             OverTheWire
           </h2>
-        </div></a
-      >
-      <a href="https://meet.google.com/fev-snnw-drt"
+        </div>
+      </a>
+      <a class="ilink" href="https://meet.google.com/fev-snnw-drt"
         ><div class="link" style="right: 35%">
-          <h2 style="font-size: 50px; text-align: center; line-height: 220%">
+          <h2 style="font-size: 50px; text-align: center; line-height: 220%; color:#582c83;">
             Google Meets
           </h2>
-        </div></a
-      >
+        </div>
+      </a>
     </div>
     </footer>
   </body>
