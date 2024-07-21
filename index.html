@@ -16,7 +16,7 @@
 
         }
         header{
-            background-color: rgb(53, 30, 53);
+            background-color: #1b1124;
             color: #fff;
             text-align: center;
             padding: 80px;
@@ -24,13 +24,29 @@
             font-size: 45px;
             
         }
+        .topnav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: gray;
+            overflow: hidden;
+            padding: 10px;
+            padding-bottom: 20px;
+        }
+        .topnav a {
+            text-decoration: none;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            font: 18pt Open Sans, Impact;
+            transition: background-color 0.3s ease;
+        }
+        .topnav a:hover {
+            background-color: #CBC3E3;
+            color:rgb(53, 30, 53);
 
-        h1{
-            margin: 0; /* Remove default margin */
-        padding: 20px; 
-        background-color: #f0f0f0;
-        text-align: center;
-    }
+
+        }
          
         
         .group{
@@ -95,16 +111,28 @@
         }
         
         footer{
-            background-color: rgb(53, 30, 53);
-            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #1b1124;
+            color: #f0f0f0;
             text-align: center;
             padding: 10px 0;
+        
         }
 
 
     </style>
     <header>ARKANSAS CODING ACADEMY</header>
-    <h1>Click here to view our projects!</h1>
+   
+    <div class="topnav">
+        <a href="https://arkansascodingacademy.com/">ArCA Wesbite</a>
+        <a href="https://codepen.io/pen/">Codepen</a>
+        <a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a>
+        <a href="https://github.com/">GitHub</a>
+    </div>
+
+    
     <div class="group">
         <div class="people-container">
             <a href="joe/" class="person">Joe</a>
@@ -115,8 +143,12 @@
             <a href="steven/" class="person">Steven</a>
     
         </div>
+    <div class="container">
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+</div>
 
-    </div>
     <footer>Arkansas Coding Academy</footer>
 </body>
 </html>
