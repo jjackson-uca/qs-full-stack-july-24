@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Arkasas Coding Academy</title>
 </head>
 <body>
@@ -109,16 +110,51 @@
           transition-duration: 500ms;
   
         }
-        
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
         footer{
-            position: fixed;
-            bottom: 0;
+            background-color:  gray;
+        }
+        .footercontainer{
             width: 100%;
-            background-color: #1b1124;
-            color: #f0f0f0;
+            padding: 70px 30px 20px;
+        }
+        .socialIcons{
+            display: flex;
+            justify-content: center;
+        }
+        .socialIcons a{
+            text-decoration: none;
+            padding: 10px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50%;
+        }
+        .socialIcons a i{
+            font-size: 2em;
+            color:  #1b1124;
+            opacity: 0.9;
+
+        }
+        .socialIcons a:hover{
+            background-color:  #1b1124;
+            transform: 0.5s;
+
+        }
+        .socialIcons a:hover i{
+            color: #CBC3E3;
+            transition: 0.5s;
+        }
+        .footerbottom{
             text-align: center;
-            padding: 10px 0;
-        
+            background-color: #1b1124;
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20px;
+            
         }
 
 
@@ -143,12 +179,24 @@
             <a href="steven/" class="person">Steven</a>
     
         </div>
-    <div class="container">
-        <div class="wave"></div>
-        <div class="wave"></div>
-        <div class="wave"></div>
+       
 </div>
 
-    <footer>Arkansas Coding Academy</footer>
+    <footer>
+        <div class="footercontainer">
+            <div class="socialIcons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            
+    </footer>
+    <div class="footerbottom">
+        <p>Copyright &copy; 2024 Designed by <span class="designer">Steven</span></p>
+    </div>
+</div>
+
 </body>
 </html>
