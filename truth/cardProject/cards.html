@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+
+.cardSize {
+  height: 20%;
+  width: 20%;
+}
+
+
+.container{
+    display: flex;
+    position:relative;
+    align-items: center;
+    justify-content: center;
+    margin:25%;
+}
+
+
+.card2{
+position: relative;
+left: -16%;
+transform: rotate(10deg);
+}
+
+.card3{
+position: relative;
+left: -30%;
+transform: rotate(10deg);
+}
+
+.card4{
+position: relative;
+left: -45%;
+transform: rotate(10deg);
+}
+
+.showCard:hover{
+    transform: translateY(-10rem);
+    
+}
+
+    
+</style>
+<body>
+    <div class ="container">
+    <img class = "cardSize showCard" src="card1.drawio.png" /> 
+    <img class ="cardSize card2 showCard" src ="card2.drawio.png"/>
+    <img class ="cardSize card3 showCard" src ="card2.drawio.png"/>
+    <img class ="cardSize card4 showCard" src ="card2.drawio.png"/>
+</div>
+</body>
+</html>
