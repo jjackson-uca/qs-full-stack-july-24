@@ -1,0 +1,39 @@
+
+.card {
+    display: block;
+    width: 100px;
+    height: 150px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 10px;
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.card1 {
+    transform: translate(-50%, -50%) rotate(-60deg);
+}
+
+.card2 {
+    transform: translate(-50%, -50%) rotate(-30deg);
+}
+
+.card3 {
+    transform: translate(-50%, -50%) rotate(0deg);
+}
+
+.card4 {
+    transform: translate(-50%, -50%) rotate(30deg);
+}
+
+.card5 {
+    transform: translate(-50%, -50%) rotate(60deg);
+}
+
+.card6 {
+    transform: translate(-50%, -50%) rotate(90deg);
+}
