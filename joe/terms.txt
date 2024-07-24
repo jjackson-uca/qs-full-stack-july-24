@@ -1,0 +1,16 @@
+^ - Carrot (SHIFT + 6)
+< - Open Carrot
+> - Close Carrot
+( - Open Paren(thesis)
+) - Close Paren(thesis)
+[ - Open Bracket
+] - Close Bracket
+{ - Open Curly  (SHIFT + [)
+} - Close Curly (SHIFT + ])
+` - tick / backtick
+' - Quote / Single Quote
+" - Double Quote
+
+
+
+

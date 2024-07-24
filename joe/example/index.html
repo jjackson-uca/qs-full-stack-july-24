@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        header{
+            min-height: 50px;
+
+            border: solid;
+        }
+        footer{
+            min-height: 50px; 
+            border: solid
+        }
+        div{
+            background-color: transparent;
+            border: solid; 
+            border-width: 2px;
+            min-width: 250px;
+            min-height: 50px; 
+        }
+    </style>
+    <div style="display:flex">
+            <div style="flex-grow:1">LEFT</div>
+    <div style="flex-grow:7">
+    <header>
+        <h2>Title: Extraordinary Pup Skippy: From Stray to Superstar</h2>
+    </header>
+    <div style="min-height: 500px; border: solid; display:flex">
+
+        <div style="flex-grow:4">
+            <p>In the heartwarming tale of Skippy the dog, a once-stray pup has risen to fame and captured the hearts of millions with his incredible journey and charming antics.
+
+                Skippy, a mixed-breed rescue, was found wandering the streets of a small town just over a year ago. His emaciated frame and shy demeanor caught the attention of local animal rescuers, who took him in and nursed him back to health. Little did they know, Skippy was destined for greatness.
+                
+                Initially timid and withdrawn, Skippy slowly began to show his true colors as he settled into his new home. His foster family quickly discovered his extraordinary talents – from effortlessly catching frisbees mid-air to performing impressive tricks with boundless energy and enthusiasm.
+                
+                But it wasn’t until a chance encounter at a local park that Skippy’s star truly began to shine. A video of him showcasing his skills went viral on social media, catapulting him into the spotlight overnight. Soon, Skippy was inundated with offers for commercials, photo shoots, and even a feature in a popular dog magazine.
+                
+                Despite his newfound fame, Skippy remains grounded and continues to enjoy the simple pleasures of life – long walks in the park, belly rubs from adoring fans, and endless treats from his grateful owners. His story serves as a reminder of the incredible resilience and potential found in every rescue animal.
+                
+                Today, Skippy serves as an ambassador for animal rescue organizations, using his platform to raise awareness about the importance of adopting pets in need. His journey from stray to superstar is not just a story of redemption and triumph, but a testament to the transformative power of love and second chances.
+                
+                As Skippy’s popularity continues to soar, one thing is certain – this remarkable dog has touched the lives of many and is destined to leave a lasting pawprint on the world.</p>
+        </div>
+        <div style="flex-grow:1"></div>
+    </div>
+    <footer></footer>
+    </div>
+</div>
+<hr>
+<div style="display: flex">
+    <div><h1>1</h1></div>
+    <div><h1>2</h1></div>
+    <div><h1>3</h1></div>
+    <div><h1>4</h1></div>
+    <div><h1>5</h1></div>
+    <div><h1>6</h1></div>
+</div>
+<hr>
+<style>
+    .main{
+    grid-template-areas: 
+    "lp hdr hdr"
+    "lp mc rp"
+    "ftr ftr rp";
+    grid-template-rows: 40px 1fr 50px;
+	grid-template-columns: 15% 1fr 15%;
+	grid-gap: 5px;
+    height: 50vh;
+    margin: 10px;
+	grid-gap: 5px;
+    }
+
+    .main > div{
+        min-width: none;
+        min-height: none;
+    }
+</style>
+<div class="main" style="display: grid;">
+    <div id="lp" style="grid-area: lp"></div>
+    <div id="rp" style="grid-area: rp"></div>
+    <div id="mc" style="grid-area: mc"></div>
+    <div id="hdr" style="grid-area: hdr"></div>
+    <div id="ftr" style="grid-area: ftr"></div>
+</div>
+</body>
+</html>
