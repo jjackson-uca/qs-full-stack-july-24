@@ -1,0 +1,110 @@
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .wrapper :where(.card) {
+    transform-origin: bottom;
+    background-color: red;
+    border: solid black;
+  }
+
+  .wrapper :nth-child(1 of .card-slot) {
+    transform: rotate(30deg);
+  }
+
+  .wrapper :nth-child(2 of .card-slot) {
+    transform: rotate(20deg);
+  }
+
+  .wrapper :nth-child(3 of .card-slot) {
+    transform: rotate(10deg);
+  }
+
+  .wrapper :nth-child(4 of .card-slot) {
+    transform: rotate(0deg);
+  }
+
+  .wrapper :nth-child(5 of .card-slot) {
+    transform: rotate(-10deg);
+  }
+
+  .wrapper :nth-child(6 of .card-slot) {
+    transform: rotate(-20deg);
+  }
+
+  .wrapper :nth-child(7 of .card-slot) {
+    transform: rotate(-30deg);
+  }
+
+  .card-slot {
+    position: absolute;
+    transform-origin: bottom;
+    height: 800px;
+  }
+
+  .card {
+    height: 400px;
+    aspect-ratio: 5/8;
+    border: solid black;
+    border-radius: 5%;
+    transition: transform 250ms ease-in-out;
+    contain: content;
+    padding: 5px;
+    display: flex;
+  }
+
+  .card:hover {
+    transform: translateY(-33%);
+    background-color:lightpink;
+  }
+  
+  .wrapper .card-slot:focus-within {
+    transform: rotate(0deg);
+    transition: 400ms ease-in-out
+  }
+  .card:focus-within {
+    transform: translateY(-105%);
+    transition-delay: 1s;
+    transition: 300ms;
+  }
+  input {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+  }
+  
+ .card-header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .card-body {
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .card-inner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5px;
+  }
+  .card-footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .card-body h1{
+    margin: 20px;
+    font-size: 30px;
+  }
