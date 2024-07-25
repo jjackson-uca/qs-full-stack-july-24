@@ -1,3 +1,7 @@
+html {
+  background-color: black;
+}
+
 .wrapper {
     width: 100vw;
     height: 100vh;
@@ -10,7 +14,7 @@
 
   .wrapper :where(.card) {
     transform-origin: bottom;
-    background-color: red;
+    background-color: white;
     border: solid black;
   }
 
