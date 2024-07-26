@@ -1,0 +1,120 @@
+.cards {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 200px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: absolute;
+    padding: 10px;
+    font-size: 1.5em;
+    cursor: pointer;
+    user-select: all;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.corner {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.top-left {
+    top: 5px;
+    left: 5px;
+}
+
+.bottom-right {
+    bottom: 5px;
+    right: 5px;
+    transform: rotate(180deg);
+}
+
+.rank {
+    font-size: 1em;
+    line-height: 1em;
+}
+
+.suit {
+    font-size: 1.2em;
+}
+
+.card1 {
+    transform: translate(-80%, -55%) rotate(-25deg);
+}
+
+.card1:hover {
+    transform: translate(-80%, -65%) rotate(-25deg);
+    transition: 0.5s;
+}
+
+.card2 {
+    transform: translate(-70%, -58%) rotate(-15deg);
+}
+
+.card2:hover {
+    transform: translate(-70%, -68%) rotate(-15deg);
+    transition: 0.5s;
+}
+
+.card3 {
+    transform: translate(-60%, -60%) rotate(0deg);
+}
+
+.card3:hover {
+    transform: translate(-60%, -70%) rotate(0deg);
+    transition: 0.5s;
+}
+
+.card4 {
+    transform: translate(-50%, -55%) rotate(15deg);
+}
+
+.card4:hover {
+    transform: translate(-50%, -65%) rotate(15deg);
+    transition: 0.5s;
+}
+
+.card5 {
+    transform: translate(-35%, -50%) rotate(25deg);
+}
+
+.card5:hover {
+    transform: translate(-35%, -60%) rotate(25deg);
+    transition: 0.5s;
+}
+
+.card6 {
+    transform: translate(-25%, -45%) rotate(35deg);
+}
+
+.card6:hover {
+    transform: translate(-25%, -55%) rotate(35deg);
+    transition: 0.5s;
+}
+
+.card:focus-within {
+    transform: translateY(105%) rotate(0deg);
+    transition: 0.5s;
+    background-color: lightgray;
+}
