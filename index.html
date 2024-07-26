@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+
+      h1,
+      h2,
+      h3,
+      p {
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        overflow: auto;
+      }
+
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+
+      .header {
+        height: 120px;
+        width: 100%;
+        background-color: #be96ff;
+        position: sticky;
+        top: 0;
+      }
+
+      .roster-wrapper {
+        display: flex;
+        flex-direction: column;
+        padding-left: 4em;
+        padding-right: 4em;
+        align-items: center;
+        justify-content: center;
+        gap: 8em;
+      }
+
+      .student-block {
+        padding-top: 120px;
+      }
+
+      .student-wrapper {
+        max-width: 1800px;
+        background-color: #be96ff;
+        min-height: 690px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0.5em;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+        margin: 0px;
+      }
+
+      .student-bio {
+        flex-grow: 1;
+        width: 33%;
+        min-width: 700px;
+        background-color: white;
+        padding: 1em;
+      }
+
+      .student-bio-header{
+        contain: inline-size;
+      }
+
+      .student-bio-header h1 {
+        text-align: center;
+        margin-top: 0px;
+        font-size: 56pt;
+        margin-left: 0px; 
+        margin-right:0px; 
+      }
+
+      .student-bio-content p {
+        font-size: larger;
+      }
+
+      .student-main-content {
+        flex-grow: 2;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .preview-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2em;
+      }
+
+      .preview-header {
+        flex-grow: 1;
+      }
+
+      .nav-wrapper {
+        flex-grow: 1;
+        min-height: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 2em;
+      }
+
+      .roster-wrapper :nth-last-child(1 of .student-block) a img {
+        transform: rotate(180deg);
+      }
+
+      .footer {
+        height: 800px;
+      }
+    </style>
+    <div class="header"></div>
+    <div class="roster-wrapper">
+      <div id="aaron" class="student-block">
+        <div class="student-wrapper">
+          <div class="student-bio">
+            <div class="student-bio-header">
+              <h1>Aaron Townsend</h1>
+            </div>
+            <div class="student-bio-content">
+              <p></p>
+            </div>
+          </div>
+          <div class="student-main-content">
+            <div class="preview-header"></div>
+            <div class="preview-wrapper">
+              <iframe
+                src="aaron/"
+                frameborder="0"
+                height="501"
+                width="890"
+                scrolling="no"
+              ></iframe>
+            </div>
+            <div class="nav-wrapper">
+              <a href="#sam"><img src="assets/Icon.png" alt="" srcset="" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="sam" class="student-block">
+        <div class="student-wrapper">
+          <div class="student-bio">
+            <div class="student-bio-header">
+              <h1>Samuel Pruitt</h1>
+            </div>
+            <div class="student-bio-content">
+              <p></p>
+            </div>
+          </div>
+          <div class="student-main-content">
+            <div class="preview-header"></div>
+            <div class="preview-wrapper">
+              <iframe
+                src="sam/"
+                frameborder="0"
+                height="501"
+                width="890"
+                scrolling="no"
+              ></iframe>
+            </div>
+            <div class="nav-wrapper">
+              <a href="#stephanie"
+                ><img src="assets/Icon.png" alt="" srcset=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="stephanie" class="student-block">
+        <div class="student-wrapper">
+          <div class="student-bio">
+            <div class="student-bio-header">
+              <h1>Stephanie Best</h1>
+            </div>
+            <div class="student-bio-content">
+              <p></p>
+            </div>
+          </div>
+          <div class="student-main-content">
+            <div class="preview-header"></div>
+            <div class="preview-wrapper">
+              <iframe
+                src="stephanie/"
+                frameborder="0"
+                height="501"
+                width="890"
+                scrolling="no"
+              ></iframe>
+            </div>
+            <div class="nav-wrapper">
+              <a href="#steven"
+                ><img src="assets/Icon.png" alt="" srcset=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="steven" class="student-block">
+        <div class="student-wrapper">
+          <div class="student-bio">
+            <div class="student-bio-header">
+              <h1>Steven Guatemala</h1>
+            </div>
+            <div class="student-bio-content">
+              <p></p>
+            </div>
+          </div>
+          <div class="student-main-content">
+            <div class="preview-header"></div>
+            <div class="preview-wrapper">
+              <iframe
+                src="/steven/"
+                frameborder="0"
+                height="501"
+                width="890"
+                scrolling="no"
+              ></iframe>
+            </div>
+            <div class="nav-wrapper">
+              <a href="#truth"
+                ><img src="assets/Icon.png" alt="" srcset=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="truth" class="student-block">
+        <div class="student-wrapper">
+          <div class="student-bio">
+            <div class="student-bio-header">
+              <h1>Truth Betts-<wbr>McCullum</h1>
+            </div>
+            <div class="student-bio-content">
+              <p></p>
+            </div>
+          </div>
+          <div class="student-main-content">
+            <div class="preview-header"></div>
+            <div class="preview-wrapper">
+              <iframe
+                src="/truth"
+                frameborder="0"
+                height="501"
+                width="890"
+                scrolling="no"
+              ></iframe>
+            </div>
+            <div class="nav-wrapper">
+              <a href="#aaron"
+                ><img src="assets/Icon.png" alt="" srcset=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer"></div>
+    </div>
+  </body>
+</html>
