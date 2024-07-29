@@ -1,0 +1,144 @@
+html {
+    height: 100%;
+}
+body {
+    font-family: 'Merriweather';
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f9;
+    color: #333;
+    height: 100%;
+    justify-content: space-between;
+}
+
+#container {
+    display: grid;
+    grid-template-areas: 
+        "header header header"
+        "nav main aside"
+        "footer footer footer";
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 20% 1fr 20%;
+    grid-gap: 10px;
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    flex: 1 0 auto;
+}
+
+header {
+    grid-area: header;
+    background: #a833b9;
+    text-align: center;
+    padding: 20px;
+    border-radius: 25px;
+    color: #fff;
+}
+
+nav {
+    grid-area: nav;
+    background: #779be7;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+nav h3 {
+    margin: 0 0 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 10px 0;
+}
+
+nav ul li a {
+    color: #fff;
+    background-color: #007BFF;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: #0056b3;
+}
+
+main {
+    grid-area: main;
+    background: #FCFCFF;
+    padding: 20px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+aside {
+    grid-area: aside;
+    background: #779be7;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+aside img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+footer {
+    grid-area: footer;
+    background: #2a2b2a;
+    border-radius: 25px;
+}
+
+footer .social-icons {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px; 
+    justify-content: left;
+}
+
+footer .social-icons a {
+    color: inherit;
+}
+
+footer .social-icons a:hover {
+    color: #d896eb;
+}
+
+footer .social-icons i {
+    font-size: 24pt;
+    margin: 4px; 
+    transition: ease-in-out;
+    transition-duration: 200ms;
+}
+
+footer .social-icons i:hover {
+    margin: 0px; 
+    font-size: 28px;
+    color: #d896eb;
+}
+
+#wrap {  padding: 0; overflow: hidden; background-color: white; height: 85px; aspect-ratio: 16/9; }
+#frame { width: 1366px; height: 768px; border: 1px solid black; }
+#frame {
+    -webkit-transform: scale(0.125);
+    -webkit-transform-origin: 0 0;
+}
