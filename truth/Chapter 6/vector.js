@@ -12,6 +12,7 @@ class Vec {
         return newVec;
     }
 
+
     minus(vector) {
         let x_param = vector.x - this.x;
         let y_param = vector.y - this.y;
