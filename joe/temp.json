@@ -1,0 +1,1425 @@
+[
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "157", "league": "78" },
+    "errors": [],
+    "results": 11,
+    "paging": { "current": 1, "total": 1 },
+    "response": {
+      "league": {
+        "id": 78,
+        "name": "Bundesliga",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/78.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2023
+      },
+      "team": {
+        "id": 157,
+        "name": "Bayern Munich",
+        "logo": "https://media.api-sports.io/football/teams/157.png"
+      },
+      "form": "WWWDWDWWWWWWLWWWLWWWLLWDWWLLWWWLWL",
+      "fixtures": {
+        "played": { "home": 17, "away": 17, "total": 34 },
+        "wins": { "home": 14, "away": 9, "total": 23 },
+        "draws": { "home": 1, "away": 2, "total": 3 },
+        "loses": { "home": 2, "away": 6, "total": 8 }
+      },
+      "goals": {
+        "for": {
+          "total": { "home": 53, "away": 41, "total": 94 },
+          "average": { "home": "3.1", "away": "2.4", "total": "2.8" },
+          "minute": {
+            "0-15": { "total": 17, "percentage": "18.28%" },
+            "16-30": { "total": 8, "percentage": "8.60%" },
+            "31-45": { "total": 12, "percentage": "12.90%" },
+            "46-60": { "total": 17, "percentage": "18.28%" },
+            "61-75": { "total": 21, "percentage": "22.58%" },
+            "76-90": { "total": 12, "percentage": "12.90%" },
+            "91-105": { "total": 6, "percentage": "6.45%" },
+            "106-120": { "total": null, "percentage": null }
+          }
+        },
+        "against": {
+          "total": { "home": 12, "away": 33, "total": 45 },
+          "average": { "home": "0.7", "away": "1.9", "total": "1.3" },
+          "minute": {
+            "0-15": { "total": 4, "percentage": "8.70%" },
+            "16-30": { "total": 8, "percentage": "17.39%" },
+            "31-45": { "total": 8, "percentage": "17.39%" },
+            "46-60": { "total": 8, "percentage": "17.39%" },
+            "61-75": { "total": 4, "percentage": "8.70%" },
+            "76-90": { "total": 9, "percentage": "19.57%" },
+            "91-105": { "total": 5, "percentage": "10.87%" },
+            "106-120": { "total": null, "percentage": null }
+          }
+        }
+      },
+      "biggest": {
+        "streak": { "wins": 6, "draws": 1, "loses": 2 },
+        "wins": { "home": "8-0", "away": "1-5" },
+        "loses": { "home": "0-2", "away": "5-1" },
+        "goals": {
+          "for": { "home": 8, "away": 5 },
+          "against": { "home": 2, "away": 5 }
+        }
+      },
+      "clean_sheet": { "home": 8, "away": 3, "total": 11 },
+      "failed_to_score": { "home": 2, "away": 1, "total": 3 },
+      "penalty": {
+        "scored": { "total": 5, "percentage": "100.00%" },
+        "missed": { "total": 0, "percentage": "0%" },
+        "total": 5
+      },
+      "lineups": [
+        { "formation": "4-2-3-1", "played": 32 },
+        { "formation": "3-4-2-1", "played": 2 }
+      ],
+      "cards": {
+        "yellow": {
+          "0-15": { "total": 3, "percentage": "6.38%" },
+          "16-30": { "total": 8, "percentage": "17.02%" },
+          "31-45": { "total": 6, "percentage": "12.77%" },
+          "46-60": { "total": 7, "percentage": "14.89%" },
+          "61-75": { "total": 8, "percentage": "17.02%" },
+          "76-90": { "total": 8, "percentage": "17.02%" },
+          "91-105": { "total": 7, "percentage": "14.89%" },
+          "106-120": { "total": null, "percentage": null }
+        },
+        "red": {
+          "0-15": { "total": 1, "percentage": "50.00%" },
+          "16-30": { "total": null, "percentage": null },
+          "31-45": { "total": null, "percentage": null },
+          "46-60": { "total": null, "percentage": null },
+          "61-75": { "total": null, "percentage": null },
+          "76-90": { "total": 1, "percentage": "50.00%" },
+          "91-105": { "total": null, "percentage": null },
+          "106-120": { "total": null, "percentage": null }
+        }
+      }
+    }
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "160", "league": "78" },
+    "errors": [],
+    "results": 11,
+    "paging": { "current": 1, "total": 1 },
+    "response": {
+      "league": {
+        "id": 78,
+        "name": "Bundesliga",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/78.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2023
+      },
+      "team": {
+        "id": 160,
+        "name": "SC Freiburg",
+        "logo": "https://media.api-sports.io/football/teams/160.png"
+      },
+      "form": "WWLLDWLWLDLDWWWLDWLLLDLDWLWLWDLDDL",
+      "fixtures": {
+        "played": { "home": 17, "away": 17, "total": 34 },
+        "wins": { "home": 5, "away": 6, "total": 11 },
+        "draws": { "home": 7, "away": 2, "total": 9 },
+        "loses": { "home": 5, "away": 9, "total": 14 }
+      },
+      "goals": {
+        "for": {
+          "total": { "home": 28, "away": 17, "total": 45 },
+          "average": { "home": "1.6", "away": "1.0", "total": "1.3" },
+          "minute": {
+            "0-15": { "total": 7, "percentage": "15.91%" },
+            "16-30": { "total": 5, "percentage": "11.36%" },
+            "31-45": { "total": 4, "percentage": "9.09%" },
+            "46-60": { "total": 13, "percentage": "29.55%" },
+            "61-75": { "total": 6, "percentage": "13.64%" },
+            "76-90": { "total": 5, "percentage": "11.36%" },
+            "91-105": { "total": 4, "percentage": "9.09%" },
+            "106-120": { "total": null, "percentage": null }
+          }
+        },
+        "against": {
+          "total": { "home": 30, "away": 28, "total": 58 },
+          "average": { "home": "1.8", "away": "1.6", "total": "1.7" },
+          "minute": {
+            "0-15": { "total": 10, "percentage": "16.95%" },
+            "16-30": { "total": 9, "percentage": "15.25%" },
+            "31-45": { "total": 10, "percentage": "16.95%" },
+            "46-60": { "total": 9, "percentage": "15.25%" },
+            "61-75": { "total": 8, "percentage": "13.56%" },
+            "76-90": { "total": 10, "percentage": "16.95%" },
+            "91-105": { "total": 3, "percentage": "5.08%" },
+            "106-120": { "total": null, "percentage": null }
+          }
+        }
+      },
+      "biggest": {
+        "streak": { "wins": 3, "draws": 2, "loses": 3 },
+        "wins": { "home": "2-0", "away": "0-3" },
+        "loses": { "home": "1-4", "away": "5-0" },
+        "goals": {
+          "for": { "home": 3, "away": 3 },
+          "against": { "home": 4, "away": 5 }
+        }
+      },
+      "clean_sheet": { "home": 4, "away": 6, "total": 10 },
+      "failed_to_score": { "home": 1, "away": 5, "total": 6 },
+      "penalty": {
+        "scored": { "total": 7, "percentage": "100.00%" },
+        "missed": { "total": 0, "percentage": "0%" },
+        "total": 7
+      },
+      "lineups": [
+        { "formation": "3-4-2-1", "played": 12 },
+        { "formation": "4-2-3-1", "played": 9 },
+        { "formation": "4-2-2-2", "played": 4 },
+        { "formation": "4-4-2", "played": 4 },
+        { "formation": "4-1-4-1", "played": 1 },
+        { "formation": "4-4-1-1", "played": 1 },
+        { "formation": "4-1-3-2", "played": 1 },
+        { "formation": "5-4-1", "played": 1 },
+        { "formation": "3-4-1-2", "played": 1 }
+      ],
+      "cards": {
+        "yellow": {
+          "0-15": { "total": 4, "percentage": "6.25%" },
+          "16-30": { "total": 2, "percentage": "3.13%" },
+          "31-45": { "total": 13, "percentage": "20.31%" },
+          "46-60": { "total": 11, "percentage": "17.19%" },
+          "61-75": { "total": 10, "percentage": "15.63%" },
+          "76-90": { "total": 15, "percentage": "23.44%" },
+          "91-105": { "total": 9, "percentage": "14.06%" },
+          "106-120": { "total": null, "percentage": null }
+        },
+        "red": {
+          "0-15": { "total": null, "percentage": null },
+          "16-30": { "total": 1, "percentage": "25.00%" },
+          "31-45": { "total": null, "percentage": null },
+          "46-60": { "total": null, "percentage": null },
+          "61-75": { "total": 1, "percentage": "25.00%" },
+          "76-90": { "total": 2, "percentage": "50.00%" },
+          "91-105": { "total": null, "percentage": null },
+          "106-120": { "total": null, "percentage": null }
+        }
+      }
+    }
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "161", "league": "78" },
+    "errors": [],
+    "results": 11,
+    "paging": { "current": 1, "total": 1 },
+    "response": {
+      "league": {
+        "id": 78,
+        "name": "Bundesliga",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/78.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2023
+      },
+      "team": {
+        "id": 161,
+        "name": "VfL Wolfsburg",
+        "logo": "https://media.api-sports.io/football/teams/161.png"
+      },
+      "form": "WWLWLWLLLDLWLLWLDDDDLDDLLLWLLWWWLL",
+      "fixtures": {
+        "played": { "home": 17, "away": 17, "total": 34 },
+        "wins": { "home": 6, "away": 4, "total": 10 },
+        "draws": { "home": 4, "away": 3, "total": 7 },
+        "loses": { "home": 7, "away": 10, "total": 17 }
+      },
+      "goals": {
+        "for": {
+          "total": { "home": 25, "away": 16, "total": 41 },
+          "average": { "home": "1.5", "away": "0.9", "total": "1.2" },
+          "minute": {
+            "0-15": { "total": 10, "percentage": "22.73%" },
+            "16-30": { "total": 3, "percentage": "6.82%" },
+            "31-45": { "total": 11, "percentage": "25.00%" },
+            "46-60": { "total": 7, "percentage": "15.91%" },
+            "61-75": { "total": 6, "percentage": "13.64%" },
+            "76-90": { "total": 6, "percentage": "13.64%" },
+            "91-105": { "total": 1, "percentage": "2.27%" },
+            "106-120": { "total": null, "percentage": null }
+          }
+        },
+        "against": {
+          "total": { "home": 25, "away": 31, "total": 56 },
+          "average": { "home": "1.5", "away": "1.8", "total": "1.6" },
+          "minute": {
+            "0-15": { "total": 9, "percentage": "16.98%" },
+            "16-30": { "total": 5, "percentage": "9.43%" },
+            "31-45": { "total": 6, "percentage": "11.32%" },
+            "46-60": { "total": 9, "percentage": "16.98%" },
+            "61-75": { "total": 13, "percentage": "24.53%" },
+            "76-90": { "total": 10, "percentage": "18.87%" },
+            "91-105": { "total": 1, "percentage": "1.89%" },
+            "106-120": { "total": null, "percentage": null }
+          }
+        }
+      },
+      "biggest": {
+        "streak": { "wins": 3, "draws": 4, "loses": 3 },
+        "wins": { "home": "3-0", "away": "0-2" },
+        "loses": { "home": "1-3", "away": "4-0" },
+        "goals": {
+          "for": { "home": 3, "away": 2 },
+          "against": { "home": 3, "away": 4 }
+        }
+      },
+      "clean_sheet": { "home": 4, "away": 2, "total": 6 },
+      "failed_to_score": { "home": 1, "away": 6, "total": 7 },
+      "penalty": {
+        "scored": { "total": 2, "percentage": "100.00%" },
+        "missed": { "total": 0, "percentage": "0%" },
+        "total": 2
+      },
+      "lineups": [
+        { "formation": "4-2-3-1", "played": 13 },
+        { "formation": "3-4-3", "played": 6 },
+        { "formation": "4-4-2", "played": 5 },
+        { "formation": "3-4-2-1", "played": 4 },
+        { "formation": "4-3-3", "played": 3 },
+        { "formation": "3-5-2", "played": 1 },
+        { "formation": "3-1-4-2", "played": 1 },
+        { "formation": "3-5-1-1", "played": 1 }
+      ],
+      "cards": {
+        "yellow": {
+          "0-15": { "total": 7, "percentage": "8.14%" },
+          "16-30": { "total": 9, "percentage": "10.47%" },
+          "31-45": { "total": 10, "percentage": "11.63%" },
+          "46-60": { "total": 16, "percentage": "18.60%" },
+          "61-75": { "total": 15, "percentage": "17.44%" },
+          "76-90": { "total": 14, "percentage": "16.28%" },
+          "91-105": { "total": 15, "percentage": "17.44%" },
+          "106-120": { "total": null, "percentage": null }
+        },
+        "red": {
+          "0-15": { "total": null, "percentage": null },
+          "16-30": { "total": 2, "percentage": "40.00%" },
+          "31-45": { "total": 1, "percentage": "20.00%" },
+          "46-60": { "total": null, "percentage": null },
+          "61-75": { "total": null, "percentage": null },
+          "76-90": { "total": 2, "percentage": "40.00%" },
+          "91-105": { "total": null, "percentage": null },
+          "106-120": { "total": null, "percentage": null }
+        }
+      }
+    }
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "162", "league": "78" },
+    "errors": [],
+    "results": 11,
+    "paging": { "current": 1, "total": 1 },
+    "response": {
+      "league": {
+        "id": 78,
+        "name": "Bundesliga",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/78.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2023
+      },
+      "team": {
+        "id": 162,
+        "name": "Werder Bremen",
+        "logo": "https://media.api-sports.io/football/teams/162.png"
+      },
+      "form": "LLWLWLLLWDDLLWDDDWWWLWDLLLLDLWWDDW",
+      "fixtures": {
+        "played": { "home": 17, "away": 17, "total": 34 },
+        "wins": { "home": 7, "away": 4, "total": 11 },
+        "draws": { "home": 4, "away": 5, "total": 9 },
+        "loses": { "home": 6, "away": 8, "total": 14 }
+      },
+      "goals": {
+        "for": {
+          "total": { "home": 29, "away": 19, "total": 48 },
+          "average": { "home": "1.7", "away": "1.1", "total": "1.4" },
+          "minute": {
+            "0-15": { "total": 7, "percentage": "15.22%" },
+            "16-30": { "total": 3, "percentage": "6.52%" },
+            "31-45": { "total": 3, "percentage": "6.52%" },
+            "46-60": { "total": 8, "percentage": "17.39%" },
+            "61-75": { "total": 13, "percentage": "28.26%" },
+            "76-90": { "total": 8, "percentage": "17.39%" },
+            "91-105": { "total": 4, "percentage": "8.70%" },
+            "106-120": { "total": null, "percentage": null }
+          }
+        },
+        "against": {
+          "total": { "home": 26, "away": 28, "total": 54 },
+          "average": { "home": "1.5", "away": "1.6", "total": "1.6" },
+          "minute": {
+            "0-15": { "total": 8, "percentage": "14.29%" },
+            "16-30": { "total": 7, "percentage": "12.50%" },
+            "31-45": { "total": 10, "percentage": "17.86%" },
+            "46-60": { "total": 8, "percentage": "14.29%" },
+            "61-75": { "total": 11, "percentage": "19.64%" },
+            "76-90": { "total": 8, "percentage": "14.29%" },
+            "91-105": { "total": 4, "percentage": "7.14%" },
+            "106-120": { "total": null, "percentage": null }
+          }
+        }
+      },
+      "biggest": {
+        "streak": { "wins": 3, "draws": 3, "loses": 4 },
+        "wins": { "home": "4-0", "away": "0-3" },
+        "loses": { "home": "0-4", "away": "5-0" },
+        "goals": {
+          "for": { "home": 4, "away": 3 },
+          "against": { "home": 4, "away": 5 }
+        }
+      },
+      "clean_sheet": { "home": 3, "away": 4, "total": 7 },
+      "failed_to_score": { "home": 3, "away": 4, "total": 7 },
+      "penalty": {
+        "scored": { "total": 5, "percentage": "100.00%" },
+        "missed": { "total": 0, "percentage": "0%" },
+        "total": 5
+      },
+      "lineups": [
+        { "formation": "3-5-2", "played": 22 },
+        { "formation": "3-1-4-2", "played": 4 },
+        { "formation": "3-4-2-1", "played": 4 },
+        { "formation": "3-4-3", "played": 4 }
+      ],
+      "cards": {
+        "yellow": {
+          "0-15": { "total": 5, "percentage": "6.85%" },
+          "16-30": { "total": 4, "percentage": "5.48%" },
+          "31-45": { "total": 14, "percentage": "19.18%" },
+          "46-60": { "total": 15, "percentage": "20.55%" },
+          "61-75": { "total": 13, "percentage": "17.81%" },
+          "76-90": { "total": 16, "percentage": "21.92%" },
+          "91-105": { "total": 6, "percentage": "8.22%" },
+          "106-120": { "total": null, "percentage": null }
+        },
+        "red": {
+          "0-15": { "total": null, "percentage": null },
+          "16-30": { "total": null, "percentage": null },
+          "31-45": { "total": 1, "percentage": "50.00%" },
+          "46-60": { "total": null, "percentage": null },
+          "61-75": { "total": 1, "percentage": "50.00%" },
+          "76-90": { "total": null, "percentage": null },
+          "91-105": { "total": null, "percentage": null },
+          "106-120": { "total": null, "percentage": null }
+        }
+      }
+    }
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "163", "league": "78" },
+    "errors": [],
+    "results": 11,
+    "paging": { "current": 1, "total": 1 },
+    "response": {
+      "league": {
+        "id": 78,
+        "name": "Bundesliga",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/78.png",
+        "flag": "https://media.api-sports.io/flags/de.svg",
+        "season": 2023
+      },
+      "team": {
+        "id": 163,
+        "name": "Borussia Monchengladbach",
+        "logo": "https://media.api-sports.io/football/teams/163.png"
+      },
+      "form": "DLLDLWDLWDWLWLDLWLDLDLWDDDLWLLDDDL",
+      "fixtures": {
+        "played": { "home": 17, "away": 17, "total": 34 },
+        "wins": { "home": 5, "away": 2, "total": 7 },
+        "draws": { "home": 6, "away": 7, "total": 13 },
+        "loses": { "home": 6, "away": 8, "total": 14 }
+      },
+      "goals": {
+        "for": {
+          "total": { "home": 27, "away": 29, "total": 56 },
+          "average": { "home": "1.6", "away": "1.7", "total": "1.6" },
+          "minute": {
+            "0-15": { "total": 7, "percentage": "12.73%" },
+            "16-30": { "total": 12, "percentage": "21.82%" },
+            "31-45": { "total": 10, "percentage": "18.18%" },
+            "46-60": { "total": 7, "percentage": "12.73%" },
+            "61-75": { "total": 7, "percentage": "12.73%" },
+            "76-90": { "total": 8, "percentage": "14.55%" },
+            "91-105": { "total": 4, "percentage": "7.27%" },
+            "106-120": { "total": null, "percentage": null }
+          }
+        },
+        "against": {
+          "total": { "home": 26, "away": 41, "total": 67 },
+          "average": { "home": "1.5", "away": "2.4", "total": "2.0" },
+          "minute": {
+            "0-15": { "total": 10, "percentage": "14.71%" },
+            "16-30": { "total": 8, "percentage": "11.76%" },
+            "31-45": { "total": 10, "percentage": "14.71%" },
+            "46-60": { "total": 14, "percentage": "20.59%" },
+            "61-75": { "total": 12, "percentage": "17.65%" },
+            "76-90": { "total": 9, "percentage": "13.24%" },
+            "91-105": { "total": 5, "percentage": "7.35%" },
+            "106-120": { "total": null, "percentage": null }
+          }
+        }
+      },
+      "biggest": {
+        "streak": { "wins": 1, "draws": 3, "loses": 2 },
+        "wins": { "home": "4-0", "away": "1-3" },
+        "loses": { "home": "0-3", "away": "4-0" },
+        "goals": {
+          "for": { "home": 5, "away": 4 },
+          "against": { "home": 3, "away": 4 }
+        }
+      },
+      "clean_sheet": { "home": 3, "away": 1, "total": 4 },
+      "failed_to_score": { "home": 5, "away": 3, "total": 8 },
+      "penalty": {
+        "scored": { "total": 5, "percentage": "100.00%" },
+        "missed": { "total": 0, "percentage": "0%" },
+        "total": 5
+      },
+      "lineups": [
+        { "formation": "3-5-2", "played": 11 },
+        { "formation": "4-2-3-1", "played": 5 },
+        { "formation": "4-3-3", "played": 4 },
+        { "formation": "3-4-2-1", "played": 2 },
+        { "formation": "4-1-4-1", "played": 2 },
+        { "formation": "3-4-3", "played": 2 },
+        { "formation": "5-4-1", "played": 1 },
+        { "formation": "4-5-1", "played": 1 },
+        { "formation": "4-4-1-1", "played": 1 },
+        { "formation": "3-5-1-1", "played": 1 },
+        { "formation": "4-4-2", "played": 1 },
+        { "formation": "5-3-2", "played": 1 },
+        { "formation": "3-4-1-2", "played": 1 },
+        { "formation": "3-1-4-2", "played": 1 }
+      ],
+      "cards": {
+        "yellow": {
+          "0-15": { "total": 3, "percentage": "4.55%" },
+          "16-30": { "total": 4, "percentage": "6.06%" },
+          "31-45": { "total": 10, "percentage": "15.15%" },
+          "46-60": { "total": 16, "percentage": "24.24%" },
+          "61-75": { "total": 8, "percentage": "12.12%" },
+          "76-90": { "total": 17, "percentage": "25.76%" },
+          "91-105": { "total": 7, "percentage": "10.61%" },
+          "106-120": { "total": null, "percentage": null },
+          "": { "total": 1, "percentage": "1.52%" }
+        },
+        "red": {
+          "0-15": { "total": null, "percentage": null },
+          "16-30": { "total": null, "percentage": null },
+          "31-45": { "total": null, "percentage": null },
+          "46-60": { "total": null, "percentage": null },
+          "61-75": { "total": 1, "percentage": "50.00%" },
+          "76-90": { "total": 1, "percentage": "50.00%" },
+          "91-105": { "total": null, "percentage": null },
+          "106-120": { "total": null, "percentage": null }
+        }
+      }
+    }
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "164", "league": "78" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "165", "league": "78" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "167", "league": "78" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "168", "league": "78" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "169", "league": "78" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "170", "league": "78" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "172", "league": "78" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "173", "league": "78" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "176", "league": "78" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "180", "league": "78" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "182", "league": "78" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "186", "league": "78" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "191", "league": "78" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "487", "league": "135" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "489", "league": "135" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "490", "league": "135" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "492", "league": "135" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "494", "league": "135" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "495", "league": "135" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "496", "league": "135" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "497", "league": "135" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "499", "league": "135" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "500", "league": "135" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "502", "league": "135" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "503", "league": "135" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "504", "league": "135" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "505", "league": "135" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "511", "league": "135" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "517", "league": "135" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "523", "league": "135" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "867", "league": "135" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "895", "league": "135" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "1579", "league": "135" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "33", "league": "39" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "34", "league": "39" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "35", "league": "39" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "36", "league": "39" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "39", "league": "39" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "40", "league": "39" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "41", "league": "39" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "42", "league": "39" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "45", "league": "39" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "46", "league": "39" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "47", "league": "39" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "48", "league": "39" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "49", "league": "39" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "50", "league": "39" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "51", "league": "39" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "52", "league": "39" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "55", "league": "39" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "57", "league": "39" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "65", "league": "39" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "66", "league": "39" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "77", "league": "61" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "79", "league": "61" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "80", "league": "61" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "81", "league": "61" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "82", "league": "61" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "83", "league": "61" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "84", "league": "61" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "85", "league": "61" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "91", "league": "61" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "93", "league": "61" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "94", "league": "61" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "95", "league": "61" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "96", "league": "61" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "106", "league": "61" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "108", "league": "61" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "111", "league": "61" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "116", "league": "61" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "1063", "league": "61" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "193", "league": "88" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "194", "league": "88" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "195", "league": "88" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "197", "league": "88" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "201", "league": "88" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "202", "league": "88" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "203", "league": "88" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "205", "league": "88" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "206", "league": "88" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "207", "league": "88" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "209", "league": "88" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "210", "league": "88" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "410", "league": "88" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "413", "league": "88" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "415", "league": "88" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "417", "league": "88" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "419", "league": "88" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  },
+  {
+    "get": "teams/statistics",
+    "parameters": { "season": "2023", "team": "426", "league": "88" },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": { "current": 1, "total": 1 },
+    "response": []
+  }
+]
