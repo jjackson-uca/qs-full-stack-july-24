@@ -1,0 +1,12 @@
+[
+  "Ernie's House",
+  'Farm',
+  "Alice's House",
+  "Ernie's House",
+  'Town Hall',
+  "Grete's House",
+  "Bob's House",
+  'Town Hall',
+  'Post Office',
+  'Shop'
+]
